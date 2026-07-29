@@ -9,7 +9,6 @@ CORS(app)
 def home():
     return "Backend is running!"
 
-# IMPORTANT: for Render
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
